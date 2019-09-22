@@ -63,7 +63,7 @@ int main(){
   for(int i = 0; i < tamanho; i++){
     scanf("%d",&vetor[i]);
   }
-  
+
   mergeSort(vetor,0,tamanho-1);
   display(vetor,tamanho);
 
